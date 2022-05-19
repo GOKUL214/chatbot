@@ -1,0 +1,190 @@
+{"intents":  [
+  {"tag" : "greetings",
+  "patterns": ["hello", "hai", "good day", "Greetings", " What's up?", "how is it going?"],
+  "responses": ["Hello!", "Hey!", "What can I do for you?"]
+  },
+  {"tag" : "goodbye",
+  "patterns": ["see you later", "good bye", "I am leaving"],
+  "responses": ["Talk to you later", "Good bye" ]
+  },
+  {"tag" : "age",
+  "patterns": ["how old", "what is your age?", "How old are you?", "age?", " What's up?", "how is it going?"],
+  "responses": ["My  age is 21 years old ", "21 years"]
+  },
+  {"tag" : "conform",
+  "patterns": ["How are you?"],
+  "responses": ["I am fine thank you!"]
+  },
+  {"tag" : "name",
+  "patterns": ["What is your name?", "Why should I call you?", "Whats your name?", "Who are you", " can you tell me who are you?"],
+  "responses": ["You can call me career guidance bot", "I'm career guidance bot"]
+  },
+  {"tag" : "hours",
+  "patterns": ["When are you guys open?", "What are your hours?"],
+  "responses": ["24/7"]
+  },
+  {"tag" : "help",
+  "patterns": ["i need your help"],
+  "responses": ["what kind of help do you want"]
+  },
+  {"tag" : "after 10 ",
+  "patterns": ["What i choose after 10 th", "What i do after 10 th?"],
+  "responses": ["After class 10 th , students can go for \n 1. Higher secondary education \n 2. VSHE \n 3. Polytechinc \n 4. ITI"]
+  },
+  {"tag" : "Higher secondary education",
+  "patterns": ["What about Higher secondary education?"],
+  "responses": ["Kerala higher secondary courses are \n 1. Biology Science \n 2. Computer science \n 3. Commerce \n 4. Humanities"]
+  },
+  {"tag" : "Humanities",
+  "patterns": ["What about Humanities course?", "What are the subjects of Humanities course?"],
+  "responses": ["The humanities includes the study of ancient and modern language, literature, philosophy, history, archaeology, anthropology, human geography, law religion and art"]
+  },
+  {"tag" : "Biology science",
+  "patterns": ["What about Biology science?", "What are the subjects include in biology science?"],
+  "responses": ["The biology science includes \n 1. English \n 2. Second language(Your choice) \n 3. Physics \n 4. Chemistry \n 5. Biology(Biology are divide into two branches Botany and Zoology) \n 6. Mathematics "]
+  },
+  {"tag" : "Computer science",
+  "patterns": ["What about computer science?", "What are the subjects include in computer science?"],
+  "responses": ["The computer science includes \n 1. English \n 2. Second language(Your choice) \n 3. Physics \n 4. Chemistry \n 5. computer science \n 6. Mathematics "]
+  },
+  {"tag" : "Commerce",
+  "patterns": ["What about commerce?", "What are the subjects include in commerce?"],
+  "responses": ["The commerce course includes \n 1. English \n 2. Second language(Your choice) \n 3. Economics \n 4. Accountancy \n 5. Business studies \n 6. Mathematics/ computer/ politics "]
+  },
+  {"tag" : "vhse",
+  "patterns": ["what about vhse"],
+  "responses": ["Kerala VHSE courses are \n 1. Agro Machinery and Power Engineering \n 2. Civil Construction Technology \n 3. Computer Science and Information Technology \n 4. Automobile Technology \n 5. Electrical and Electronics Technology \n 6. Electronics and Communication Technology \n 7. Graphic Design and Printing Technology \n 8. Refrigeration and Air-Conditioning \n 9. Polymer Technology \n 10. Textile Technology \n 11. Agri-Crop Health Management \n 12. Agriculture Science and Processing Technology \n 13. Agri-Business and Farm Services \n 14. Medical Laboratory Technology \n 15. ECG & Audiometric Technology \n 16. Basic Nursing and Palliative Care \n 17. Dental Technology \n 18. Biomedical Equipment Technology \n 19. Physiotherapy \n 20. Physical Education \n 21. Livestock Management \n 22. Dairy Technology \n 23. Marine Fisheries & Seafood Processing \n 24. Aquaculture \n 25. Marine Technology \n 26. Cosmetology and Beauty Therapy \n 27. Fashion and Apparel Designing \n 28. Creche and Pre-School Management \n 29. Travel and Tourism \n 30. Accounting and Taxation \n 31. Customer Relationship Management \n 32. Banking and Insurance Services \n 33. Marketing and Financial Services \n 34. Computerised Office Management \n 35. Food and Restaurant Management"]
+  },
+  {"tag" : "Agro Machinery and Power Engineering",
+    "patterns": ["What about Agro Machinery and Power Engineering "],
+    "responses": ["A vocational course in agro machinery and power engineering envisages\n"]
+  },
+  {"tag" : "after 12th",
+    "patterns": ["What i choose after 12th? ", " What are the courses "],
+    "responses": ["Students can choose a course from top domains including \n 1.Engineering\n 2.Architecture\n 3.Design\n 4.Law \n 5.Applied Science\n 6.Business Studies\n 7.Management \n 8.Behavioral and Social Sciences\n 9.Economics \n 10.Media \n 11.Humanities \n and more. Also Read- List of All Competitive Exams After 12th in India"]
+  },
+  {"tag" : "engineering",
+    "patterns": ["what about engineering?", "What are the engineering course?", "What are the types of engineering ?"],
+    "responses": ["The engineering courses are \n1. Computer Science Engineering\n2. Mechanical Engineering\n3. Civil Engineering\n4. Bio-Chemical Engineering\n5. Electrical Engineering\n6. Aeronautical Engineering\n7. Electronics & Communications Engineering\n8. Chemical Engineering"]
+  },
+  {"tag" : "computer science engineering",
+    "patterns": ["What is computer science engineering?", "What about computer science engineering?"],
+    "responses": ["Computer Science Engineering (CSE) is an engineering discipline that covers several topics related to computation, programming languages, program design, computer hardware and software and integrates several fields of computer science. It is one of the trending subjects which students pursue after completing Class 12"]
+  },
+  {"tag" : "Mechanical Engineering",
+    "patterns": ["What is Mechanical Engineering?", "What about Mechanical Engineering?"],
+    "responses": ["Mechanical engineering is an engineering branch that combines engineering physics and mathematics principles with materials science, to design, analyze, manufacture, and maintain mechanical systems. It is one of the oldest and broadest of the engineering branches."]
+  },
+  {"tag" : "Civil Engineering",
+    "patterns": ["what is civil engineering?", " What about civil engineering?"],
+    "responses": ["Mechanical engineering is an engineering branch that combines engineering physics and mathematics principles with materials science, to design, analyze, manufacture, and maintain mechanical systems. It is one of the oldest and broadest of the engineering branches."]
+  },
+  {"tag" : "Bio-Chemical Engineering",
+    "patterns": ["what is Bio-Chemical Engineering?", " What about Bio-Chemical Engineering?"],
+    "responses": ["Biochemical engineering is a branch of chemical engineering which applies technological advancements to biological materials. Biochemical engineers combine knowledge of biology, chemistry and engineering to create products from raw materials and develop the processes for achieving this."]
+  },
+  {"tag" : "Electrical Engineering",
+    "patterns": ["what is Electrical Engineering?", " What about Electrical Engineering?"],
+    "responses": ["Electrical engineers design, develop, test, and supervise the manufacture of electrical equipment, such as electric motors, radar and navigation systems, communications systems, or power generation equipment. Electrical engineers also design the electrical systems of automobiles and aircraft."]
+  },
+  {"tag" : "Aeronautical Engineering",
+    "patterns": ["what is Aeronautical Engineering?", " What about Aeronautical Engineering?"],
+    "responses": ["Aeronautical Engineering is the science involved with the study, design, and manufacture of flight-capable machines, or the techniques of operating aircraft. This course trains an engineer in designing, constructing, analyzing and testing of commercial or military aircrafts, missiles, and spacecrafts."]
+  },
+  {"tag" : "Electronics & Communications Engineering",
+    "patterns": ["what is Electronics & Communications Engineering?", " What about Electronics & Communications Engineering?"],
+    "responses": ["Electronics and Communications Engineering (ECE) involves researching, designing, developing, and testing of electronic equipment used in various systems. Electronics and Communications engineers also conceptualize and oversee the manufacturing of communications and broadcast systems"]
+  },
+  {"tag" : "Chemical Engineering",
+    "patterns": ["what is Chemical Engineering?", " What about Chemical Engineering?"],
+    "responses": ["Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products."]
+  },
+  {"tag" : "Architecture",
+    "patterns": ["What about Architecture?", "What is Architecture?"],
+    "responses": ["Architectural engineering, also known as building engineering or architecture engineering, is an engineering discipline that deals with the technological aspects and multi-disciplinary approach to planning, design, construction and operation of buildings, such as analysis and integrated design of environmental systems ..."]
+  },
+  {"tag" : "Design",
+    "patterns": ["What about design?", "What is design?"],
+    "responses": ["A design course is a career stream that candidates pursue at the undergraduate (UG), postgraduate (PG), and doctorate (Ph.D.) levels to become designers. Design as a career is extremely popular among students having a creative flair. What makes design careers even better is that this stream is vast and offers ample opportunities to students with different talents, skills, and educational backgrounds.  \n\nTo pursue a design course, the candidate needn't have studied any specific subject in their qualifying exam. This means that candidates from any educational background can pursue take admission to a design course and pursue their dream of becoming a designer, provided they have the required skills and aptitude"]
+  },
+  {"tag" : "Law ",
+    "patterns": ["What is law?", "What about Law course?"],
+    "responses": ["LLB is the most common degree of law education. The LLB takes the 3 year as the duration of the course. One who wishes to do the integrated course can take the admission in 5 year integrated programme after the completion of 10+2 exams. LLM is the master degree in legal education having one or two-year duration"]
+  },
+  {"tag" : "Applied Science",
+    "patterns": ["What is applied Science?", "What about applied Science?"],
+    "responses": [" Applied science is a discipline that is used to apply existing scientific knowledge to develop more practical applications, for example: technology or inventions. In natural science, basic science (or pure science) is used to develop information to explain phenomena in the natural world."]
+  },
+  {"tag" : "Business Studies",
+    "patterns": ["What is business Studies?", "what about business Studies?"],
+    "responses": ["Business studies is an academic subject taught in schools and at university level in many countries. Its study combines elements of accountancy, finance, marketing, organizational studies, human resource management, and operations."]
+  },
+  {"tag" : "Management",
+    "patterns": ["What is management?", "What about management?"],
+    "responses": ["Management Courses provide you with a broad foundation of business disciplines, such as Finance, Economics, and Marketing. You will also have an in-depth understanding of various management theories and their relationships with different industries.\n\nMBA, BBA, PGDM are popular management courses; they are available in a variety of specializations like Hospital Management, Hotel Management, Aviation Management, Event Management, etc. Management Courses are offered at Certificate, Diploma, and Degree levels (Bachelors's, Masters's, Doctorate)."]
+  },
+  {"tag" : "Behavioral and Social Sciences",
+    "patterns": ["What about behavioral and Social Sciences?", "What is Behavioral and Social Sciences?"],
+    "responses": ["The science or study of the thought processes and behavior of humans and other animals in their interactions with the environment studied through observational and experimental methods."]
+  },
+  {"tag" : "Economics",
+    "patterns": ["What is economics?", "What about economics?"],
+    "responses": ["Economics is the study of scarcity and its implications for the use of resources, production of goods and services, growth of production and welfare over time, and a great variety of other complex issues of vital concern to society."]
+  },
+  {"tag" : "Media",
+    "patterns": ["What is media?", "What about media?"],
+    "responses": ["Students who take media studies courses or declare a media studies major analyze how the industries, practices, and content of mass media — which include radio, TV, film, newspapers, magazines, books, popular music, digital gaming, the internet, and social media — shape our perspectives of the world around us"]
+  },
+  {"tag" : "Civil Construction Technology",
+    "patterns": ["What about Civil Construction Technology "],
+    "responses": ["Civil engineering is one of the oldest disciplines of engineering which can be dated\nback to the first time when somebody laid a tree across a river to cross it. It is one\nof those branches of engineering which have both a scientific as well as artistic\naspect to it. Construction of structures is a major activity of civil engineering. At the\nsame time, water resources engineering and environmental engineering are also\nanother two major disciplines of this subject.\nIn the first two modules named ADVANCED SURVEYING, CIVIL\nCONSTRUCTION and DRAFTSMANSHIP, in the first year, the students step\ninto the preliminary part of construction. During the second year another two modules\nare incorporated ESTIMATING AND COSTING, WATER SUPPLY and\nSANITARY ARRANGEMENTS. All these four disciplines are the most needed\ntopics in view of its importance in the present trends of the construction industry. A\nlot of work force is needed in the construction sector at the skilled, semi skilled\nlevel and supervisory level in India and internationally"]
+  },
+  {"tag" : "Computer Science and Information Technology",
+    "patterns": ["What about Computer Science and Information Technology "],
+    "responses": ["The COMPUTER SCIENCE AND INFORMATION TECHNOLOGY (CSIT)\naims to equip students the knowledge, skills and attitudes to become productive\nemployees in the area of computer science and technology. In this course, students\nwill gain a perspective to become a successful entrepreneur in Computer Science &\nInformation technology and allied sector\n \n Scope of the Course \n \n The Computer Science and Information Technology course also provide students\nwith the foundation for higher studies. Computer science and Information technology\nis one of the most significant growth catalysts for the Indian economy. Computer\nscience and Information technology not only influenced the employment prospects\nof the people but also affected the social lives of the people through networking and\nsocial web sites. CSIT course certificate is approved for various posts notified by\nKerala Public Service Commission (KPSC)."]
+  },
+  {"tag" : "Automobile Technology ",
+    "patterns": ["What about Automobile Technology  "],
+    "responses": ["The department of Vocational Higher secondary Education (VHSE) prior to\ncurriculum revision offered two courses related to automobile industry. They were\nMaintenance and Repairs of Two Wheelers and Three Wheelers (MRTWTW) and\nMaintenance and Repairs of Automobiles (MRA). Currently these two courses have\nbeen merged and is renamed as Automobile Technology (AT). This endeavour will\ndefinitely enhance the job opportunities of our students. Moreover, students can\nalso for higher education at the diploma and degree levels in automobile technology.\nIn this revised curriculum, we have tried to incorporate the concept and ideas of\nmodern automobile systems and its components."]
+  },
+  {"tag" : "Electrical and Electronics Technology ",
+    "patterns": ["What about Electrical and Electronics Technology"],
+    "responses": ["The course named Electrical and Electronics Technology (EET) comes under\nengineering group. Electrical and Electronics Engineering field has radically\ntransformed our way of life and so the basic concepts of the same have been dealt\nwith in detail. Students with a flair for LED assembling and repairing, solar PV\nsystem installation & maintenance, domestic appliance servicing and wiring will find\nthe course a rewarding career option. Besides this, students can stabilize their career\nby equipping themselves with wire man license. This can open the portals of selfemployment to the pass outs. For those aspiring to apply for government jobs, the\ncourse is recognized by PSC and so it opens job opportunities. There are ample\nopportunities in private sectors too. Due priority is also given to skill development to\nensure that students don't take a back seat on their ride to success. So the future\nseems promising for EET students"]
+  },
+  {"tag" : "Electronics and Communication Technology ",
+    "patterns": ["What about Electronics and Communication Technology"],
+    "responses": ["The growth of knowledge-based society offers great opportunities for the social\nand economic health of a country. Development in the area of Science and Technology\ncontributes remarkably for this exponential growth. Among these, Electronics is a\nvery fast developing field, embracing almost all walks of human endeavors. Rapid\nadvancements in Electronics and Communication Technology have already made a\nnotable impact in all fields of life in especially 21stcentury.\nThe development in semiconductor technology made it possible for integration of\ncircuits into chips and these powerful chips with different tremendous capabilities\ncan be used for almost all applications in the areas of business, science, engineering,\nmedical, defense etc. The applications of electronics and communication are very\neffectively extended to the fields of instrumentation, general communication, medical\nelectronics, computers, wireless communication, automobile engineering,\nentertainments, internet and e- commerce. Further technological advancements in\nthese areas have been predicted, to make those kinds of gadgets essential in the\nhigh-tech future."]
+  },
+  {"tag" : "Graphic Design and Printing Technology ",
+    "patterns": ["What about Graphic Design and Printing Technology"],
+    "responses": ["Printing is indispensable for the modern man as every product he comes across\nin his day-to-day life is directly related to it. We can see printing on a tooth\npaste tube or tooth brush that he uses immediately after waking up. From that\nmoment, almost everything he uses for any purpose bears a printed impression.\nThis course provides in-depth coverage of electronic text generation, desktop\npublishing,  computer-to-plate  operations,  computer-controlled  inking  and\nprinting,  digital  image  generation  and  electronic  prepress.    Printing  has\nundergone  a  complete  transformation  with  the  application  of  electronics,\ncomputers  and  microprocessors  and  advanced  science  and  technology. This\ntechnology  has  developed  by  incorporating  the  advancements  from  other\ndisciplines and adopting the latest technical information from commercial art,\nphotography, applied science, computer, mechanical and electronic engineering,\nnano technology etc"]
+  },
+  {"tag" : "Refrigeration and Air-Conditioning ",
+    "patterns": ["What about Refrigeration and Air-Conditioning"],
+    "responses": ["The Vocational Higher Secondary course was envisaged as part of the NationalPolicy on Education (NPE)-1986 with the noble idea of securing a job along witheducation. The relevance of vocational education is highly essential in this age ofunemployment. Vocational Educational system, which ensures a job along with highereducation, stands aloof from other systems of education. The twentieth centurywitnessed tremendous progress in commercial refrigeration and air conditioningparticularly after DuPont introduced Freon refrigerants. The new century has emergedwith the introduction of new alternatives. The vocational course in refrigeration and air conditioning intends to acquire refrigeration skills and update the knowledge of the present world"]
+  },
+  {"tag" : "Polymer Technology ",
+    "patterns": ["What about Polymer Technology"],
+    "responses": ["Vocational Higher Secondary Education in Kerala is a unique scheme of\neducation which combines both vocational and academic stream of education.\nLearning vocational skills along with conventional academic education gives\nthe students double advantage of vertical mobility as well as employability. It\nhelps to develop vocational aptitude, work culture, values and attitudes of\nthe learner and enhances his productivity. The vision of Vocational Higher\nSecondary Education in Kerala is to equip the youth with multiple skills\nmatching the technological advancements and to produce skilled work force\nfor meeting the demands of the emerging industries and service sectors with\nnational and global orientation."]
+  },
+  {"tag" : " Textile Technology ",
+    "patterns": ["What about  Textile Technology"],
+    "responses": ["Vocational Higher Secondary Education in Kerala is a unique scheme of education\nwhich combines both vocational and academic stream of education. Learning\nvocational skills along with conventional academic education gives the students double\nadvantage of vertical mobility as well as employability. It helps to develop vocational\naptitude, work culture, values and attitudes of the learner and enhances his\nproductivity. The vision of Vocational Higher Secondary Education in Kerala is to\nequip the youth with multiple skills matching the technological advancements and to\nproduce skilled work force for meeting the demands of the emerging industries and\nservice sectors with national and global orientation."]
+  },
+  {"tag" : " Agriculture Science and Processing Technology",
+    "patterns": ["What about  Agriculture Science and Processing Technology"],
+    "responses": ["In recent times agricultural sector in Kerala confronts an array of issues which is\nundeniably a matter of contemplation, especially in view of livelihood and sustainability\nof the sector in the state. The youth moving away from agriculture to comparatively\nmore remunerative fields poses serious threats to the agrarian future of the state. An\nasymmetric socio-economic regime with excessive stress on consumerism will also\nprove to be detrimental in the long run. Viewed from this context, a paradigm shift in\nthis regard, especially placing the agricultural sector in the upfront of the present\nsocio-economic structure of the society, requires concerted effort.\nHuge post-harvest losses and lack of secondary agriculture are major threats to our\neconomic, social and nutritional security. Even though we have made tremendous\nimprovement in production and productivity of agricultural crops, about 30 to 40%\nof fruits and vegetables are still lost due to poor post-harvest handling."]
+  },
+  {"tag" : "ITI",
+    "patterns": ["What about ITI? ", " What is iti?"],
+    "responses": ["Industrial Training Institutes (ITI) and Industrial Training Centers (ITC) are post-secondary schools in India constituted under Directorate General of Training (DGT), Ministry of Skill Development and Entrepreneurship, Union Government to provide training in various trades\n \n who have 2 options\n1. Iti courses after 10 th\n 2. Iti courses after 12 th"]
+  },
+  {"tag" : "Iti courses after 10 th",
+    "patterns": ["what are the courses of after 10 th?","What i choose after 10 th in iti?"],
+    "responses": ["1.Bleaching & Dyeing Calico Print\t\tNon-engineering\t\t1 year\n2.Commercial Art\tNon-IT\t1 year\n3.Diesel Mechanic Engineering\tEngineering\t1 year\n4.Draughtsman (Civil) Engineering\tEngineering\t2 years\n5.Draughtsman (Mechanical) Engineering\tEngineering\t2 years \n6.Dress Making\tNon-IT\t1 year\n7.Electrician Engineering\tEngineering\t2 years\n8.Fitter Engineering\tEngineering\t2 years\n9.Foundry Man Engineering\tEngineering\t1 year\n10.Fruit & Vegetable Processing\tNon-IT\t1 year\n11.Hair & Skin Care\tNon-IT\t1 year\n12.Hand Compositor\tNon-IT\t1 year\n13.Information Technology & E.S.M. Engineering\tEngineering\t2 years\n14.Leather Goods Maker\tNon-IT\t1 year\n15.Letter Press Machine Mender\tNon-IT\t1 year\n16.Machinist Engineering\tEngineering\t1 year\n17.Manufacture Foot Wear\tNon-IT\t1 year\n18.Mech. Instrument Engineering\tEngineering\t2 years\n19.Mechanic Electronics Engineering\tEngineering\t2 years\n20.Mechanic Motor Vehicle Engineering\tEngineering\t2 years\n21.Mechanic Radio & T.V. Engineering\tEngineering\t2 years\n22.Motor Driving-cum-Mechanic Engineering\tEngineering\t1 yea\n23.Pump Operator\tEngineering\t1 year\n24.Refrigeration Engineering\tEngineering\t2 years\n25.Secretarial Practice\tNon-IT\t1 year\n26.Sheet Metal Worker Engineering\tEngineering\t1 year\n27.Surveyor Engineering\tEngineering\t2 years\n28.Turner Engineering\tEngineering\t2 years\n29.Tool & Die Maker Engineering\tEngineering\t3 years"]
+  },
+  {"tag" : "Iti courses after 12 th",
+    "patterns": ["what are the courses of after 12 th?","What i choose after 12 th in iti?"],
+    "responses": ["1.Travel and Tour Assistant\tNon-IT\t1 year\n2.Surveyor\tNon-IT\t2 years\n3.Stenography Hindi\tNon-IT\t1 year\n4.Stenography English\tNon-IT\t1 year\n5.Radiology Technician\tEngineering\t2 years\n6.Plastic Processing Operator\tNon-IT\t1 year\n7.Physiotherapy Technician\tEngineering\t2 years\n8.Old Age Care Assistant\tNon-IT\t1 year\n9.Multimedia Animation and Special Effects\tEngineering\t1 year\n10.Mechanic Lens or Prism Grinding\tEngineering\t2 years\n11.Mechanic Agricultural Machinery\tEngineering\t2 years\n12.Mason\tNon-IT\t1 year\n13.Marketing Executive\tNon-IT\t1 year\n14.Marine Fitter\tEngineering\t1 year\n15.Library and Information Science\tNon-IT\t1 year\n16.Interior Decoration and Designing\tNon-IT\t1 year\n17.Insurance Agent\tNon-IT\t1 year\n18.Instrument Mechanic\tEngineering\t1 year\n19.Human Resource Executive\tNon-IT\t1 year\n20.Health Safety and Environment\tNon-IT\t1 year\n21.Health and Sanitary Inspector\tNon-IT\t1 year\n22.GoldSmith\tNon-IT\t2 years\n23.Desktop Publishing Operator\tNon-IT\t1 year\n24.Dental Laboratory Equipment Technician\tEngineering\t2 years\n25.Creche Management\tNon-IT\t1 year\n26.Craftsman Food Production\tNon-IT\t2 years\n27.Computer Operator and Programming Assistant\tEngineering\t2 years\n28.Computer Hardware and Networking\tEngineering\t2 years\n29.Catering and Hospitality Assistant\tNon-IT\t1 year\n30.Call Centre Assistant\tNon-IT\t1 year\n31.Computer Operator & Programming Assistant (COPA)\tNon-IT\t1 year.\n32.Basic Cosmetology\tNon-IT\t1 year\n33.Architectural Draughtsmanship\tEngineering\t2 years\n34.Architectural Assistant\tEngineering\t1 year"]
+  }
+]}
